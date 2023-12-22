@@ -46,72 +46,166 @@
     align-self: flex-start;
 }
 
-.view {
-    position: relative;
-    flex-direction: column;
-}
-
-.overlay {
-    margin-top: 91px;
-    background: black;
-}
-
-.overlay .lotos {
-    opacity: 0.6;
+section {
+    padding: 91px 9px 13px 9px;
 }
 
 .lotos {
-    /* background: url('../images/cover.jpg'); */
-    padding: 0px 9px 13px 9px;
-    height: 764px;
-    background-repeat: no-repeat;
+    background: url(../images/cover.jpg);
     background-size: cover;
+    position: relative;
+    height: 764px;
+
 }
 
-/* .big-words {
+.overlay {
+    background: black;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
     position: absolute;
-} */
+
+}
+
+.lotos_text {
+    position: absolute;
+    z-index: 1;
+}
+
+.lotos p {
+    color: #ffffff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 127.273% */
+    text-transform: uppercase;
+    white-space: pre;
+    z-index: 2;
+    align-self: flex-end;
+}
+
+.lotos a {
+    margin: 0px 58px 61px 0;
+    width: 252px;
+    background: transparent;
+    border: solid #ffffff 1px;
+    padding: 12px 30px;
+    color: #ffffff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    align-self: flex-end;
+    z-index: 2;
+}
 
 .lots {
+    margin: 163px 33px 33px;
     height: 682px;
     display: flex;
     flex-direction: column;
 }
 
 .lots__title {
+    margin-left: 37px;
     font-size: 40px;
     text-transform: uppercase;
+    margin-left: 37px;
 }
 
 .lots__gallery {
     height: 554px;
-    margin: 27px 33px 33px;
+    margin-top: 27px;
     display: flex;
     flex-direction: row;
     gap: 25px;
 }
 
+
+
+
 lot {
+    position: relative;
+    height: 554px;
     width: 328px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
     
 }
 
 .lot__1 {
     background: url('../images/card-lot-01.jpg');
+    background-size: cover;  
 }
 
 .lot__2 {
     background: url('../images/card-lot-02.jpg');
+    background-size: cover;
 }
 
 .lot__3 {
     background: url('../images/card-lot-03.jpg');
+    background-size: cover;
+}
+
+.lot_text {
+    z-index: 1;
+    padding: 48px 35px 39px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+lot h3 { 
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 26.4px */
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    z-index: 2;
+    
+}
+
+lot p {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+    align-self: flex-end;
+    z-index: 2;
+}
+
+.lots a {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: solid 1px;
+    margin: 29px 0px 2px 39px;
+    align-self: start;
 }
 
 
+
 about {
+    margin-top: 177px;
     display: flex;
     flex-direction: row;
+    height: 546px;
+}
+
+.logo__column {
+    display: inline-flex;
+    height: 237px;
+    padding: 0px 45px 0px 70px;
+    align-self: flex-start;
 }
 
 circle {
@@ -122,6 +216,7 @@ circle {
     display: flex;
     align-items: center; 
     justify-content: center;
+
 }
 
 circle .logo {
@@ -129,17 +224,32 @@ circle .logo {
     height: 114px;
 }
 
-article {
+.about__column {
+    display: flex;
     width: 705px;
+    padding-bottom: 1px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
 }
 
-article h3 {
-    margin-bottom: 100px;
+.about__column h3 {
+    margin-top: 97px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
-
-
-
+.about__text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
 
 footer {
     margin: 181px 58px 89px 58px;
@@ -170,7 +280,6 @@ map .first {
 socials {
     display: flex;
     flex-direction: row;
-    
     gap: 46px;
 }
 

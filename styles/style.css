@@ -1,1 +1,178 @@
-/* место для вашего кода */
+.header {
+    margin: 92px 24px 24px ;
+    line-height: 1.35;
+    width: 1052px;
+    height: 105px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.menu {
+    display: flex;
+    list-style: circle;
+    gap: 32px;
+}
+
+.menu li {
+    border-bottom: solid 1px;
+    align-self: flex-start;
+}
+
+.menu .first {
+    list-style: none;
+    border-bottom: none;
+
+}
+
+.contacts {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    position: absolute;
+    height: 105px;
+}
+
+.phone,
+.email {
+    border-bottom: solid 1px;
+    align-self: flex-start;
+}
+
+.view {
+    position: relative;
+    flex-direction: column;
+}
+
+.overlay {
+    margin-top: 91px;
+    background: black;
+}
+
+.overlay .lotos {
+    opacity: 0.6;
+}
+
+.lotos {
+    /* background: url('../images/cover.jpg'); */
+    padding: 0px 9px 13px 9px;
+    height: 764px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .big-words {
+    position: absolute;
+} */
+
+.lots {
+    height: 682px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lots__title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.lots__gallery {
+    height: 554px;
+    margin: 27px 33px 33px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+lot {
+    width: 328px;
+    
+}
+
+.lot__1 {
+    background: url('../images/card-lot-01.jpg');
+}
+
+.lot__2 {
+    background: url('../images/card-lot-02.jpg');
+}
+
+.lot__3 {
+    background: url('../images/card-lot-03.jpg');
+}
+
+
+about {
+    display: flex;
+    flex-direction: row;
+}
+
+circle {
+    background: #000;
+    border-radius: 50%;
+    width: 237px;
+    height: 237px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+circle .logo {
+    width: 148px;
+    height: 114px;
+}
+
+article {
+    width: 705px;
+}
+
+article h3 {
+    margin-bottom: 100px;
+}
+
+
+
+
+
+footer {
+    margin: 181px 58px 89px 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 1.35;
+
+}
+
+map {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+map a {
+
+    border-bottom: solid 1px;
+    align-self: center;
+}
+
+map .first {
+    border-bottom: none;
+    
+}
+
+socials {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 46px;
+}
+
+
+

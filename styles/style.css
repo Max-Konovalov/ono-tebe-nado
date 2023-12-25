@@ -1,5 +1,5 @@
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .header {
@@ -47,13 +47,13 @@ a {
   display: flex;
   flex-direction: column;
   color: #000;
-  line-height: 24.3px; 
+  line-height: 24.3px;
 }
 
 .contacts a {
-    text-decoration: none;
-    border-bottom: solid 1px;
-    align-self: flex-start;
+  text-decoration: none;
+  border-bottom: solid 1px;
+  align-self: flex-start;
 }
 
 .logo_container {
@@ -204,7 +204,6 @@ a {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  background-size: cover;
 }
 
 .lot_text {

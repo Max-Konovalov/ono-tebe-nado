@@ -73,7 +73,7 @@ section {
     height: 100%;
     position: absolute;
     z-index: 1;
-
+    
 }
 
 .secondary_text {
@@ -160,12 +160,17 @@ lot {
 }
 
 .lot_text {
+    height: 100%;
+    width: 100%;
     z-index: 1;
     padding: 48px 35px 39px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
 }
+
+
 
 lot h3 { 
     color: #FFF;
@@ -204,7 +209,7 @@ about {
     margin-top: 177px;
     display: flex;
     flex-direction: row;
-    height: 546px;
+
 }
 
 .logo__column {
@@ -231,16 +236,17 @@ circle .logo {
 }
 
 .about__column {
+    margin-left: 25px;
     display: flex;
     width: 705px;
     padding-bottom: 1px;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     gap: 100px;
 }
 
 .about__column h3 {
+    
     margin-top: 97px;
     color: #000;
     font-family: Raleway;
@@ -251,10 +257,20 @@ circle .logo {
     text-transform: uppercase;
 }
 
-.about__text {
+.about_text {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    padding-right: 12px;
+
+}
+
+.about__text p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.48px;
+    align-self: flex-start;
 }
 
 footer {

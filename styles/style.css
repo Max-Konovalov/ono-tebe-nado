@@ -41,11 +41,6 @@
     position: absolute;
 }
 
-.logo {
-    
-    
-    
-}
 .logo img {
     height: 105px;
 }
@@ -56,7 +51,7 @@
     align-self: flex-start;
 }
 
-section {
+.cover {
     padding: 91px 9px 13px 9px;
 }
 
@@ -144,7 +139,6 @@ section {
     margin-left: 37px;
     font-size: 40px;
     text-transform: uppercase;
-    margin-left: 37px;
 }
 
 .lots__gallery {
@@ -190,7 +184,7 @@ section {
     justify-content: space-between;
 }
 
-lot h3 { 
+.lot h3 { 
     color: #FFF;
     font-size: 22px;
     font-style: normal;
@@ -201,7 +195,7 @@ lot h3 {
     z-index: 2;
 }
 
-lot p {
+.lot p {
     color: #FFF;
     font-size: 20px;
     font-style: normal;
@@ -245,7 +239,7 @@ lot p {
 
 }
 
-circle .logo {
+.circle .logo {
     width: 148px;
     height: 114px;
 }

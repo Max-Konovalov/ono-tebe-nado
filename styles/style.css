@@ -27,7 +27,6 @@
 .menu .first {
     list-style: none;
     border-bottom: none;
-
 }
 
 .contacts {
@@ -58,8 +57,6 @@ section {
     background-repeat: no-repeat;
     position: relative;
     height: 744px;
-    
-
 }
 
 .overlay {
@@ -68,7 +65,6 @@ section {
     height: 100%;
     width: 100%;
     position: absolute;
-
 }
 
 .lotos_text {
@@ -76,7 +72,8 @@ section {
     height: 100%;
     position: absolute;
     z-index: 1;
-    
+    display: flex;
+    flex-direction: column;    
 }
 
 .lotos_title {
@@ -110,7 +107,6 @@ section {
     text-transform: uppercase;
     white-space: pre;
     z-index: 1;
-
 }
 
 .lotos a {
@@ -150,19 +146,14 @@ section {
     gap: 25px;
 }
 
-
-
-
 lot {
     position: relative;
     height: 554px;
     width: 328px;
-
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 .lot__1 {
@@ -188,10 +179,7 @@ lot {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
-
-
 
 lot h3 { 
     color: #FFF;
@@ -205,7 +193,6 @@ lot h3 {
 }
 
 lot p {
-
     color: #FFF;
     font-size: 20px;
     font-style: normal;
@@ -230,12 +217,10 @@ about {
     margin-top: 177px;
     display: flex;
     flex-direction: row;
-
 }
 
 .logo__column {
     display: inline-flex;
-    height: 237px;
     padding: 0px 45px 0px 70px;
     align-self: flex-start;
 }
@@ -266,8 +251,7 @@ circle .logo {
     gap: 100px;
 }
 
-.about__column h3 {
-    
+.about__column h3 {   
     margin-top: 97px;
     color: #000;
     font-family: Raleway;
@@ -283,7 +267,6 @@ circle .logo {
     flex-direction: column;
     gap: 25px;
     padding-right: 12px;
-
 }
 
 .about__text p {
@@ -301,7 +284,6 @@ footer {
     justify-content: space-between;
     line-height: 1.35;
     position: relative;
-
 }
 
 map {
@@ -313,14 +295,12 @@ map {
 }
 
 map a {
-
     border-bottom: solid 1px;
     align-self: center;
 }
 
 map .first {
     border-bottom: none;
-    
 }
 
 socials {

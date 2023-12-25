@@ -1,5 +1,5 @@
 .header {
-    margin: 92px 24px 24px ;
+    margin: 92px 24px 0px 24px;
     line-height: 1.35;
     width: 1052px;
     height: 105px;
@@ -13,6 +13,7 @@
 }
 
 .menu {
+    margin-left: 34px;
     display: flex;
     list-style: circle;
     gap: 32px;
@@ -30,6 +31,7 @@
 }
 
 .contacts {
+    margin-right: 30px;
     width: 240px;
     display: flex;
     flex-direction: column;
@@ -53,8 +55,10 @@ section {
 .lotos {
     background: url(../images/cover.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
-    height: 764px;
+    height: 744px;
+    
 
 }
 
@@ -68,7 +72,6 @@ section {
 }
 
 .lotos_text {
-
     width: 100%;
     height: 100%;
     position: absolute;
@@ -76,9 +79,27 @@ section {
     
 }
 
-.secondary_text {
-    
+.lotos_title {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    z-index: 2;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 44%;
+    color: #FFF;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 115px */
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    height: 351px;
+    width: 100%;
+    grid-row-gap: 9px;
 }
+
+
 
 .lotos p {
     color: #ffffff;
@@ -279,13 +300,16 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     line-height: 1.35;
+    position: relative;
 
 }
 
 map {
+    width: 100%;
+    height: 100%;
+    position: absolute;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 
 map a {

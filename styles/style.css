@@ -136,13 +136,11 @@
 .secodary_text {
     display: flex;
     flex-direction: row;
-    align-content: space-between;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .secodary_text p {
-    /* margin: 0px 0px 80px 73px; */
-    /* width: 30%; */
+    margin: 0px 0px 60px 80px;
     color: #ffffff;
     font-size: 22px;
     font-style: normal;
@@ -150,14 +148,12 @@
     line-height: 28px; /* 127.273% */
     text-transform: uppercase;
     word-spacing: 18px;
-    /* white-space: pre; */
     z-index: 1;
     align-self: flex-end;
-
 }
 
 .lotos a {
-    margin: 0px 58px 60px 0px;
+    margin: 0px 49px 48px 0px;
     background: transparent;
     border: solid #ffffff 1px;
     padding: 12px 30px;

@@ -146,7 +146,7 @@ section {
     gap: 25px;
 }
 
-lot {
+.lot {
     position: relative;
     height: 554px;
     width: 328px;
@@ -225,7 +225,7 @@ lot p {
     align-self: flex-start;
 }
 
-circle {
+.circle {
     background: #000;
     border-radius: 50%;
     width: 237px;

@@ -22,6 +22,10 @@
 .menu li {
     border-bottom: solid 1px;
     align-self: flex-start;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .menu .first {
@@ -34,6 +38,8 @@
     width: 240px;
     display: flex;
     flex-direction: column;
+    color: #000;
+    line-height: 24.3px;
 }
 .logo_container {
     width: 100%;
@@ -47,8 +53,11 @@
 
 .phone,
 .email {
+    
+    text-decoration: none;
     border-bottom: solid 1px;
     align-self: flex-start;
+    
 }
 
 .cover {
@@ -58,7 +67,7 @@
 .lotos {
     background: url(../images/cover.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     position: relative;
     height: 744px;
 }
@@ -78,31 +87,53 @@
     z-index: 1;
     display: flex;
     flex-direction: column;
+    color: #FFF;
 }
 
 .lotos_title {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    z-index: 2;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 44%;
-    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    margin-top: 162px;
+    grid-row-gap: 9px;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
-    line-height: 115%; /* 115px */
-    letter-spacing: 30px;
+    line-height: 115%;
     text-transform: uppercase;
-    height: 351px;
-    width: 100%;
-    grid-row-gap: 9px;
+    letter-spacing: 30px;
 }
 
+.lotos_title .first_word {
+    margin: 2px 1px;
+    margin-left: 47px;
+}
+.lotos_title .second_word {
+    margin-top: -2px;
+    margin-left: 330px;
+}
+.lotos .third_word {
+    margin: -6px 19px;
+    align-self: flex-end;
+}
 
+.ls28 {
+    letter-spacing: 28px;
+}
 
-.lotos p {
+.ls57 {
+    letter-spacing: 57px;
+}
+
+.ls59 {
+    letter-spacing: 59px;
+}
+
+.ls60 {
+    letter-spacing: 59px;
+}
+
+.secondary_text p{
+    width: 100%;
     color: #ffffff;
     font-size: 22px;
     font-style: normal;
@@ -214,12 +245,10 @@
     align-self: start;
 }
 
-
-
 .about {
-    margin-top: 177px;
     display: flex;
     flex-direction: row;
+    margin: 177px 9px 0px 9px;
 }
 
 .logo__column {
@@ -270,9 +299,6 @@
     flex-direction: column;
     gap: 25px;
     padding-right: 12px;
-}
-
-.about__text p {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -300,6 +326,10 @@ footer {
 .map a {
     border-bottom: solid 1px;
     align-self: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .map .first {
@@ -310,6 +340,19 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 46px;
+}
+
+.socials img {
+    height: 48px;
+}
+
+footer .contacts {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px; /* 135% */
 }
 
 
